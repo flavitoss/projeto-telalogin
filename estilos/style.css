@@ -60,15 +60,54 @@ div#form >p{
     font-size: 0.8em;
 }
 form > div.campo{
-    background-color: #8C5188;
+    background-color: #0489a7;
+    border: 2px solid #0489a7;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 12px;
     margin: 5px 0px;
 }
 div.campo > label{
     display: none;
 }
+div.campo > span{
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+
+div.campo > input:focus-within{
+    border: none;
+}
+div.campo > input{
+    background-color: white;
+    border: 0px;
+    width: 75%;
+   height: 34px;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin: auto;
+    
+    position: absolute;
+    
+    
+    
+    
+}
+
+    
+
+div.campo > input::placeholder{
+    color: black;
+    font-size: 1em;
+}
+
+
 input[type=submit]{
     display: block;
     font-size: 1em;

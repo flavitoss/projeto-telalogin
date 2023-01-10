@@ -24,3 +24,15 @@ body{
     div#form >p{
         font-size: 1.2em;
     }
+    div.campo > input{
+        background-color: white;
+        border: 0px;
+        width: 410px;
+       height: 30px;
+       
+        padding-top: 15px;
+        border-radius: 10px;
+    }
+        
+        
+        
