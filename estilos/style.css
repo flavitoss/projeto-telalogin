@@ -59,7 +59,16 @@ div#form > h1{
 div#form >p{
     font-size: 0.8em;
 }
-
+form > div.campo{
+    background-color: #8C5188;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+div.campo > label{
+    display: none;
+}
 input[type=submit]{
     display: block;
     font-size: 1em;
@@ -71,6 +80,8 @@ input[type=submit]{
     cursor: pointer;
     width: 230px;
     height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
     
 }
 input[type=submit]:hover{
@@ -87,6 +98,8 @@ form > a#botao{
     border: 1px solid #0489a7;
     border-radius: 5px;
     text-decoration: none;
+    padding-top: 5px;
+    margin-top: 5px;
     color: black;
 }
 form > a#botao:hover{
